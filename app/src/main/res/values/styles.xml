@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/darkpurple</item>
+        <item name="colorPrimaryDark">@color/lightpurple</item>
+        <item name="colorAccent">@color/lightestpurple</item>
+    </style>
+
+    <style name="semiBold" parent="@android:style/TextAppearance.Small">
+        <item name="android:fontFamily">@font/exo2semibold</item>
+        <item name="android:colorAccent">@color/lightestpurple</item>
+    </style>
+
+    <style name="medium" parent="@android:style/TextAppearance.Small">
+        <item name="android:fontFamily">@font/exo2medium</item>
+    </style>
+
+    <style name="extrabold" parent="@android:style/TextAppearance.Small">
+        <item name="android:fontFamily">@font/exo2extrabold</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"  />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="myRequestDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@android:color/holo_blue_dark</item>
+        <item name="android:fontFamily">@font/exo2semibold</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>

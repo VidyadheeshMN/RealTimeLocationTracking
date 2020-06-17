@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context=".AllPeopleActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarfriend"
+        android:layout_centerHorizontal="true"
+        android:layout_width="90dp"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/backbutton"
+        android:backgroundTint="#553C8B"></androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/cardview_dark_background"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recylcer_all_people"
+        android:layout_below="@+id/toolbarfriend"
+        android:layout_width="match_parent"
+        android:layout_height="647dp"
+        android:background="#CCC1FF"></androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

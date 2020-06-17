@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "252254865668",
+    "firebase_url": "https://locappproject.firebaseio.com",
+    "project_id": "locappproject",
+    "storage_bucket": "locappproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252254865668:android:c5782b566497779a",
+        "android_client_info": {
+          "package_name": "com.example.realtimelocationtracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252254865668-emiglpc1r8sop0l9rkoet7ujg8jl08m0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.realtimelocationtracking",
+            "certificate_hash": "a4fbb1eb3792676d610cc7eff66dc6a6b192797d"
+          }
+        },
+        {
+          "client_id": "252254865668-brf6c7kvq6ve7na5out6aqbvmfuob0d6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5Y-FIXplc22spcl-E7f6Afdb4U-xCm50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252254865668-brf6c7kvq6ve7na5out6aqbvmfuob0d6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#FFEAFE"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context=".AllPeopleActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#553C8B"></androidx.appcompat.widget.Toolbar>
+
+    <com.miguelcatalan.materialsearchview.MaterialSearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:searchCloseIcon="@drawable/ic_close_blacksv_24dp"
+        app:searchBackIcon="@drawable/ic_done_black_24dp"
+        app:searchSuggestionIcon="@drawable/ic_suggestion"
+        android:textColor="#553C8B"
+        android:textColorHint="#553C8B"
+        ></com.miguelcatalan.materialsearchview.MaterialSearchView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/cardview_dark_background"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="65dp"
+        android:id="@+id/recylcer_all_people"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>
